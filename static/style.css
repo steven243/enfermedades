@@ -1,0 +1,112 @@
+
+.main{
+
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    border: black;
+    border-radius: 30px;
+    margin-left: 450px;
+    margin-top: -15px;
+    
+}
+
+#title{
+    
+    text-align: center;
+    font-size: 30px;
+    padding-top: 35px;
+
+}
+
+
+#exampleFormControlSelect1{
+
+    width: 350px;
+    margin-left: 70px;
+    
+}
+
+.sint{
+
+
+    margin-left: 70px;
+
+}
+
+
+#select{
+
+    margin-top: 30px;
+
+
+}
+
+#btn{
+
+    margin-top: 25px;
+    margin-left: 305px;
+
+}
+
+#result{
+
+    background-color:#B7D968;
+    height: 120px;
+    margin-top: 23px;
+    padding-left: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+}
+
+
+#res{
+
+    padding-left: 165px;
+    font-size: 30px;
+    margin-top: -48px;
+    color: red;
+
+}
+
+#posible{
+
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 35px;
+    color:black;
+
+
+}
+
+p{
+
+    margin-bottom: 0px;
+    margin-left: -10px;
+    text-align: center;
+}
+
+a{
+
+    margin-left: 180px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+#recomendacion{
+    
+    padding-top: 30px;
+    padding-right: 10px;
+
+}
+
+
+#enlace{
+
+    margin-left: 0px;
+
+
+}

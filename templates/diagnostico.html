@@ -1,0 +1,186 @@
+{% extends "bootstrap/base.html" %}
+
+{% block title %}Enfermedades{% endblock %}
+
+
+{% block styles %}
+{{super()}}
+  <link rel="stylesheet" href="{{url_for('.static', filename='style.css')}}">
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway" rel="stylesheet">
+{% endblock %}
+
+
+{% block content %}
+<body style="background-image: url({{ url_for('.static', filename='banner.jpg') }}) ">
+<div class="main">
+<h1 id="title"><strong>Enfermedades.py</strong></h1><br>
+<div id="select">
+<form method="">
+<label class="sint" for="">Síntoma 1: </label>
+    <select name="sint1" class="form-control" id="exampleFormControlSelect1">
+        <option selected>- Seleccione un síntoma -</option>
+        <option></option>
+        <option value="s101">Fiebre</option>
+        <option value="s102">Dolor de cabeza</option>
+        <option value="s103">Tos</option>
+        <option value="s104">Escalofríos</option>
+        <option value="s105">Dolor de garganta</option>
+        
+        <option value="s201">Dolor en el pecho</option>
+        <option value="s202">Desorientación</option>
+        <option value="s203">Náuseas</option>
+        <option value="s204">Temperatura baja</option>
+        <option value="s205">Dificultad al respirar</option>
+        
+        <option value="s301">Tos con sangre</option>
+        <option value="s303">Tos intensa</option>
+        <option value="s305">Falta de apetito</option>
+        
+        <option value="s401">Aumento de sed</option>
+        <option value="s402">Aumento en ganas de orinar</option>
+        <option value="s403">Visión borrosa</option>
+        <option value="s404">Úlceras que no sicatrizan</option>
+        <option value="s405">Entumecimiento en manos y piés</option>
+        
+        <option value="s501">Digestión lenta</option>
+        <option value="s502">Barriga hinchada</option>
+        <option value="s503">Agrieras</option>
+      </select> 
+      
+<label class="sint" for="">Síntoma 2: </label>
+    <select name="sint2" class="form-control" id="exampleFormControlSelect1">
+        <option selected>- Seleccione un síntoma -</option>
+        <option></option>
+        <option value="s101">Fiebre</option>
+        <option value="s102">Dolor de cabeza</option>
+        <option value="s103">Tos</option>
+        <option value="s104">Escalofríos</option>
+        <option value="s105">Dolor de garganta</option>
+        
+        <option value="s201">Dolor en el pecho</option>
+        <option value="s202">Desorientación</option>
+        <option value="s203">Náuseas</option>
+        <option value="s204">Temperatura baja</option>
+        <option value="s205">Dificultad al respirar</option>
+        
+        <option value="s301">Tos con sangre</option>
+        <option value="s303">Tos intensa</option>
+        <option value="s305">Falta de apetito</option>
+        
+        <option value="s401">Aumento de sed</option>
+        <option value="s402">Aumento en ganas de orinar</option>
+        <option value="s403">Visión borrosa</option>
+        <option value="s404">Úlceras que no sicatrizan</option>
+        <option value="s405">Entumecimiento en manos y piés</option>
+        
+        <option value="s501">Digestión lenta</option>
+        <option value="s502">Barriga hinchada</option>
+        <option value="s503">Agrieras</option>
+      </select> 
+<label class="sint" for="">Síntoma 3: </label>
+    <select name="sint3" class="form-control" id="exampleFormControlSelect1">
+        <option selected>- Seleccione un síntoma -</option>
+        <option></option>
+        <option value="s101">Fiebre</option>
+        <option value="s102">Dolor de cabeza</option>
+        <option value="s103">Tos</option>
+        <option value="s104">Escalofríos</option>
+        <option value="s105">Dolor de garganta</option>
+        
+        <option value="s201">Dolor en el pecho</option>
+        <option value="s202">Desorientación</option>
+        <option value="s203">Náuseas</option>
+        <option value="s204">Temperatura baja</option>
+        <option value="s205">Dificultad al respirar</option>
+        
+        <option value="s301">Tos con sangre</option>
+        <option value="s303">Tos intensa</option>
+        <option value="s305">Falta de apetito</option>
+        
+        <option value="s401">Aumento de sed</option>
+        <option value="s402">Aumento en ganas de orinar</option>
+        <option value="s403">Visión borrosa</option>
+        <option value="s404">Úlceras que no sicatrizan</option>
+        <option value="s405">Entumecimiento en manos y piés</option>
+        
+        <option value="s501">Digestión lenta</option>
+        <option value="s502">Barriga hinchada</option>
+        <option value="s503">Agrieras</option>
+      </select> 
+<label class="sint" for="">Síntoma 4: </label>
+    <select name="sint4" class="form-control" id="exampleFormControlSelect1">
+         <option selected>- Seleccione un síntoma -</option>
+        <option></option>
+        <option value="s101">Fiebre</option>
+        <option value="s102">Dolor de cabeza</option>
+        <option value="s103">Tos</option>
+        <option value="s104">Escalofríos</option>
+        <option value="s105">Dolor de garganta</option>
+        
+        <option value="s201">Dolor en el pecho</option>
+        <option value="s202">Desorientación</option>
+        <option value="s203">Náuseas</option>
+        <option value="s204">Temperatura baja</option>
+        <option value="s205">Dificultad al respirar</option>
+        
+        <option value="s301">Tos con sangre</option>
+        <option value="s303">Tos intensa</option>
+        <option value="s305">Falta de apetito</option>
+        
+        <option value="s401">Aumento de sed</option>
+        <option value="s402">Aumento en ganas de orinar</option>
+        <option value="s403">Visión borrosa</option>
+        <option value="s404">Úlceras que no sicatrizan</option>
+        <option value="s405">Entumecimiento en manos y piés</option>
+        
+        <option value="s501">Digestión lenta</option>
+        <option value="s502">Barriga hinchada</option>
+        <option value="s503">Agrieras</option>
+      </select> 
+<label class="sint" for="">Síntoma 5: </label>
+    <select name="sint5" class="form-control" id="exampleFormControlSelect1">
+         <option selected>- Seleccione un síntoma -</option>
+        <option></option>
+        <option value="s101">Fiebre</option>
+        <option value="s102">Dolor de cabeza</option>
+        <option value="s103">Tos</option>
+        <option value="s104">Escalofríos</option>
+        <option value="s105">Dolor de garganta</option>
+        
+        <option value="s201">Dolor en el pecho</option>
+        <option value="s202">Desorientación</option>
+        <option value="s203">Náuseas</option>
+        <option value="s204">Temperatura baja</option>
+        <option value="s205">Dificultad al respirar</option>
+        
+        <option value="s301">Tos con sangre</option>
+        <option value="s303">Tos intensa</option>
+        <option value="s305">Falta de apetito</option>
+        
+        <option value="s401">Aumento de sed</option>
+        <option value="s402">Aumento en ganas de orinar</option>
+        <option value="s403">Visión borrosa</option>
+        <option value="s404">Úlceras que no sicatrizan</option>
+        <option value="s405">Entumecimiento en manos y piés</option>
+        
+        <option value="s501">Digestión lenta</option>
+        <option value="s502">Barriga hinchada</option>
+        <option value="s503">Agrieras</option>
+      </select>
+      </form>
+   </div> 
+   
+   <div id="btn">
+   <button type="button" class="btn btn-primary">Diagnosticar</button>
+   </div>
+   
+   <div id="result">
+   <h2 id="posible">Diagnóstico: </h2><p id="res">{{resultado.resul}}</p>
+   <p>Por favor, para mayor exactitud, consulte a su médico o haga</p>
+   <a href={{recom.reco}}>click aquí</a>
+   </div>
+   
+      
+</div>
+</body>
+{% endblock %}
