@@ -1,1 +1,1 @@
-# enfermedades-predictor
+# enfermedades
